@@ -1,5 +1,8 @@
-# Predicting the Poverty Probability Index
-This project predicts the Poverty Probability Index / **PPI** from high-level data about individuals provided by the Finanical Inclusion Insights household surveys.
+# Analyzing the Predictability of the Poverty Probability Index
+The ![Poverty Probability Index / **PPI**](https://www.povertyindex.org/) is a measurement tool for predicting poverty.  This project asks the question of whether the PPI for individuals can be predicted well from general data provided by 
+
+
+This project predicts the from high-level data about individuals provided by the Finanical Inclusion Insights household surveys.
 
 The best model found was a decision tree regressor.  Predictive accuracy was limited.  Only a low R-squared score of 0.422 was aciheved.  
 
