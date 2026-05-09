@@ -1,3 +1,4 @@
+
 # Analyzing the Predictability of the Poverty Probability Index
 This project analyzes the predictability of the Poverty Probability Index from survey data.  The [Poverty Probability Index / **PPI**](https://www.povertyindex.org/) is a measurement tool for predicting poverty on a global scale.  This project asks whether the PPI can be predicted well from general data provided by [Financial Inclusion Insights](http://finclusion.org/) for individuals.
 
@@ -16,15 +17,15 @@ Predictive power of the data was quite limited.  I investigate this problem poin
 
 Analysis of the features showed important issues.  The only real continuous numeric values had almost no correlation with the target.
 
-[image]
+![Uncorrelated Floats](images/ppi-bad-correlations.png)
 
 Some features were categorized as floats, but were really integers:
 
-['float' graph]
+![Fake Floats](images/fake-floats.png) 
 
 The most interesting feature was significantly informative on the target, but had *no correlation.*
 
-[image]
+![Num Formal Institutions](images/num-formal-institutions.png)
 
 I use a simple measure of "prediction range," a basic separability metric, to evaluate the features on the target.  For categorical feature variable `x` that ranges over groups `g`:
 
