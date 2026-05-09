@@ -25,7 +25,7 @@ Some features were categorized as floats, but were really integers:
 
 The most interesting feature was significantly informative on the target, but had *no correlation.*
 
-![Num Formal Institutions](images/num-formal-institutions.png)
+![Num Formal Institutions](images/u-shape.png)
 
 I use a simple measure of "prediction range," a basic separability metric, to evaluate the features on the target.  For categorical feature variable `x` that ranges over groups `g`:
 
