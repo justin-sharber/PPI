@@ -19,7 +19,7 @@ Analysis of the features showed important issues.  The only real continuous nume
 
 ![Uncorrelated Floats](images/ppi-bad-correlations.png)
 
-Some features were categorized as floats, but were really integers:
+A few features were categorized as floats, but were really integers:
 
 ![Fake Floats](images/fake-float.png) 
 
