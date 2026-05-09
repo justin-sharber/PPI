@@ -21,7 +21,7 @@ Analysis of the features showed important issues.  The only real continuous nume
 
 Some features were categorized as floats, but were really integers:
 
-![Fake Floats](images/fake-floats.png) 
+![Fake Floats](images/fake-float.png) 
 
 The most interesting feature was significantly informative on the target, but had *no correlation.*
 
